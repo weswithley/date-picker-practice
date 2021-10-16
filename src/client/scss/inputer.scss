@@ -1,0 +1,54 @@
+@import './toolkit';
+
+.labeler{
+  width: 300px;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  &:before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f073";
+    position: absolute;
+    top: 4px;
+    left: 5px;
+  }
+}
+
+.inputer {
+  width: 300px;
+  height: 25px;
+  outline: none;
+  border: 1px solid #ccc;
+  margin: 10px auto 0px;
+  display: block;
+  font-size: 1.1rem;
+  color: #666;
+  text-align: center;
+  box-sizing: border-box;
+  @include radius(5px);
+
+  &:focus,
+  &:hover{
+    border: 2px solid #1db7bd;
+  }
+  &.error{
+    border: 2px solid #bd1d4d;
+    &:focus,
+    &:hover{
+      border: 2px solid #bd1d4d;
+    }
+  }
+
+  &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ddd;
+  opacity: 1; /* Firefox */
+  }
+
+  &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #ddd;
+  }
+
+  &::-ms-input-placeholder { /* Microsoft Edge */
+    color: #ddd;
+  }
+}
