@@ -1,6 +1,6 @@
 # date-picker-practice
 A self practice date-picker library.
-##### Detial :
+##### Det :
 * All the implementation were taken about 4 to 5 days, planning takes about 0.5 days, programming takes about 4 to 4.5 days.
 * All the used libraries are React / Babel loader / CSS loaders and moment.js, and other parts were implemented by myself.
 * I don't use "Create-React-App" in this practice project, all the project structure was based on the Webpack-config.json which was written by myself.
