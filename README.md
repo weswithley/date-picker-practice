@@ -18,7 +18,7 @@ A self practice date-picker library.
 &emsp;
 
 ##### file / code structure :
-* Using the Hook + context API to simulate a simpler "Redux" data flow.
+* Using the Hook + context API to simulate a simple version of "Redux" data flow.
 * "Context" type file means the store in "Redux", also means all the variables placed here.
 * "Action" type files just same with the "Action" in "Redux", also means all the filtering type enums of reducer placed here.
 * "Reducer" type files just same with the "Reducer" in "Redux", also means all the logical algorithm placed here.
